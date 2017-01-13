@@ -13,11 +13,12 @@
   },
   "license": "MIT",
   "scripts": {
-    "docs": "rm -f README.md && node build"
+    "docs": "rimraf README.md && node build"
   },
   "dependencies": {
-    "eslint-plugin-chasevida": "~0.1.2",
-    "eslint-plugin-hapi": "~4.0.0"
+    "eslint-plugin-chasevida": "^0.1.2",
+    "eslint-plugin-hapi": "^4.0.0",
+    "rimraf": "^2.5.4"
   },
   "keywords": [
     "lint",
