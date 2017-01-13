@@ -73,7 +73,12 @@ Changes that are breaking e.g. upgrading from a warning to an exception should b
   "error",
   "never"
 ] 
-1. <a href="http://eslint.org/docs/rules/consistent-return.html" target="_blank">consistent-return</a>: "error" 
+1. <a href="http://eslint.org/docs/rules/consistent-return.html" target="_blank">consistent-return</a>: [
+  "warn",
+  {
+    "treatUndefinedAsUnspecified": true
+  }
+] 
 1. <a href="http://eslint.org/docs/rules/consistent-this.html" target="_blank">consistent-this</a>: [
   "error",
   "self"
