@@ -18,6 +18,9 @@
   "dependencies": {
     "eslint-plugin-chasevida": "^0.1.2",
     "eslint-plugin-hapi": "^4.0.0",
+    "eslint-plugin-react": "^6.9.0"
+  },
+  "devDependencies": {
     "rimraf": "^2.5.4"
   },
   "keywords": [
