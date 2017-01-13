@@ -1,0 +1,27 @@
+{
+  "name": "@colensobbdo/eslint-config-colensobbdo",
+  "version": "0.1.0",
+  "description": "Shareable ESLint config",
+  "author": "Colenso BBDO",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/colensobbdo/eslint-config-colensobbdo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/colensobbdo/eslint-config-colensobbdo/issues"
+  },
+  "license": "MIT",
+  "scripts": {
+    "docs": "rm -f README.md && node build"
+  },
+  "dependencies": {
+    "eslint-plugin-chasevida": "~0.1.2",
+    "eslint-plugin-hapi": "~4.0.0"
+  },
+  "keywords": [
+    "lint",
+    "eslint",
+    "eslintconfig"
+  ]
+}
