@@ -45,7 +45,7 @@ Changes that are breaking e.g. upgrading from a warning to an exception should b
   }
 ] 
 1. <a href="http://eslint.org/docs/rules/brace-style.html" target="_blank">brace-style</a>: [
-  "error",
+  "warn",
   "stroustrup"
 ] 
 1. <a href="http://eslint.org/docs/rules/callback-return.html" target="_blank">callback-return</a>: [
