@@ -198,6 +198,8 @@ Changes that are breaking e.g. upgrading from a warning to an exception should b
   }
 ] 
 1. <a href="http://eslint.org/docs/rules/radix.html" target="_blank">radix</a>: "error" 
+1. <a href="http://eslint.org/docs/rules/react/jsx-uses-react.html" target="_blank">react/jsx-uses-react</a>: "error" 
+1. <a href="http://eslint.org/docs/rules/react/jsx-uses-vars.html" target="_blank">react/jsx-uses-vars</a>: "error" 
 1. <a href="http://eslint.org/docs/rules/semi.html" target="_blank">semi</a>: [
   "warn",
   "never"
