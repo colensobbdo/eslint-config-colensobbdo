@@ -127,7 +127,12 @@ Changes that are breaking e.g. upgrading from a warning to an exception should b
   "warn",
   4
 ] 
-1. <a href="http://eslint.org/docs/rules/new-cap.html" target="_blank">new-cap</a>: "error" 
+1. <a href="http://eslint.org/docs/rules/new-cap.html" target="_blank">new-cap</a>: [
+  "warn",
+  {
+    "properties": true
+  }
+] 
 1. <a href="http://eslint.org/docs/rules/new-parens.html" target="_blank">new-parens</a>: "error" 
 1. <a href="http://eslint.org/docs/rules/newline-after-var.html" target="_blank">newline-after-var</a>: "off" 
 1. <a href="http://eslint.org/docs/rules/no-array-constructor.html" target="_blank">no-array-constructor</a>: "error" 
