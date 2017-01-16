@@ -185,7 +185,7 @@ Changes that are breaking e.g. upgrading from a warning to an exception should b
 1. <a href="http://eslint.org/docs/rules/no-with.html" target="_blank">no-with</a>: "error" 
 1. <a href="http://eslint.org/docs/rules/object-curly-spacing.html" target="_blank">object-curly-spacing</a>: [
   "error",
-  "never"
+  "always"
 ] 
 1. <a href="http://eslint.org/docs/rules/object-shorthand.html" target="_blank">object-shorthand</a>: "warn" 
 1. <a href="http://eslint.org/docs/rules/one-var.html" target="_blank">one-var</a>: "off" 
