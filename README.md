@@ -192,7 +192,10 @@ Changes that are breaking e.g. upgrading from a warning to an exception should b
 1. <a href="http://eslint.org/docs/rules/quotes.html" target="_blank">quotes</a>: [
   "error",
   "single",
-  "avoid-escape"
+  "avoid-escape",
+  {
+    "allowTemplateLiterals": true
+  }
 ] 
 1. <a href="http://eslint.org/docs/rules/radix.html" target="_blank">radix</a>: "error" 
 1. <a href="http://eslint.org/docs/rules/semi.html" target="_blank">semi</a>: [
