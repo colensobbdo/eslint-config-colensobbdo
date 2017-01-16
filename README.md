@@ -111,7 +111,10 @@ Changes that are breaking e.g. upgrading from a warning to an exception should b
 1. <a href="http://eslint.org/docs/rules/hapi/no-arrowception.html" target="_blank">hapi/no-arrowception</a>: "warn" 
 1. <a href="http://eslint.org/docs/rules/indent.html" target="_blank">indent</a>: [
   "error",
-  4
+  2,
+  {
+    "SwitchCase": 1
+  }
 ] 
 1. <a href="http://eslint.org/docs/rules/key-spacing.html" target="_blank">key-spacing</a>: "error" 
 1. <a href="http://eslint.org/docs/rules/keyword-spacing.html" target="_blank">keyword-spacing</a>: "error" 
