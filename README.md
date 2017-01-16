@@ -45,7 +45,7 @@ Changes that are breaking e.g. upgrading from a warning to an exception should b
   }
 ] 
 1. <a href="http://eslint.org/docs/rules/brace-style.html" target="_blank">brace-style</a>: [
-  "error",
+  "warn",
   "stroustrup"
 ] 
 1. <a href="http://eslint.org/docs/rules/callback-return.html" target="_blank">callback-return</a>: [
@@ -73,7 +73,12 @@ Changes that are breaking e.g. upgrading from a warning to an exception should b
   "error",
   "never"
 ] 
-1. <a href="http://eslint.org/docs/rules/consistent-return.html" target="_blank">consistent-return</a>: "error" 
+1. <a href="http://eslint.org/docs/rules/consistent-return.html" target="_blank">consistent-return</a>: [
+  "warn",
+  {
+    "treatUndefinedAsUnspecified": true
+  }
+] 
 1. <a href="http://eslint.org/docs/rules/consistent-this.html" target="_blank">consistent-this</a>: [
   "error",
   "self"
@@ -122,7 +127,12 @@ Changes that are breaking e.g. upgrading from a warning to an exception should b
   "warn",
   4
 ] 
-1. <a href="http://eslint.org/docs/rules/new-cap.html" target="_blank">new-cap</a>: "error" 
+1. <a href="http://eslint.org/docs/rules/new-cap.html" target="_blank">new-cap</a>: [
+  "warn",
+  {
+    "properties": true
+  }
+] 
 1. <a href="http://eslint.org/docs/rules/new-parens.html" target="_blank">new-parens</a>: "error" 
 1. <a href="http://eslint.org/docs/rules/newline-after-var.html" target="_blank">newline-after-var</a>: "off" 
 1. <a href="http://eslint.org/docs/rules/no-array-constructor.html" target="_blank">no-array-constructor</a>: "error" 
@@ -175,14 +185,17 @@ Changes that are breaking e.g. upgrading from a warning to an exception should b
 1. <a href="http://eslint.org/docs/rules/no-with.html" target="_blank">no-with</a>: "error" 
 1. <a href="http://eslint.org/docs/rules/object-curly-spacing.html" target="_blank">object-curly-spacing</a>: [
   "error",
-  "never"
+  "always"
 ] 
 1. <a href="http://eslint.org/docs/rules/object-shorthand.html" target="_blank">object-shorthand</a>: "warn" 
 1. <a href="http://eslint.org/docs/rules/one-var.html" target="_blank">one-var</a>: "off" 
 1. <a href="http://eslint.org/docs/rules/quotes.html" target="_blank">quotes</a>: [
   "error",
   "single",
-  "avoid-escape"
+  "avoid-escape",
+  {
+    "allowTemplateLiterals": true
+  }
 ] 
 1. <a href="http://eslint.org/docs/rules/radix.html" target="_blank">radix</a>: "error" 
 1. <a href="http://eslint.org/docs/rules/react/jsx-uses-react.html" target="_blank">react/jsx-uses-react</a>: "error" 
